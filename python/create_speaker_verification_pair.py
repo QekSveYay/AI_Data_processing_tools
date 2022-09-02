@@ -12,6 +12,9 @@ trial_pair_filename = 'veri_test.txt'
 # source directory
 src = '\dataset\VoxCeleb1'
 
+# get the absolute path of the source directory
+src = os.path.abspath(src)
+
 # variable having the index till which src string has directory and a path separator
 src_prefix = len(src) + len(os.path.sep)
 
